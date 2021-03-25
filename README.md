@@ -13,7 +13,7 @@ cp .env.example .env
 Put your credentils below.
 
 
-Add a file **server.js** with the following content:
+Change js credentils below.
 
 ```js
 var firebaseConfig = {
