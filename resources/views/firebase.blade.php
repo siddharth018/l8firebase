@@ -50,9 +50,9 @@
            databaseURL: "https://test-e434b.firebaseapp.com",
            projectId: "test-e434b",
            storageBucket: "test-e434b.appspot.com",
-           messagingSenderId: "108177260687787",
+           messagingSenderId: "1081772606944",
            appId: "1:1081772606944:web:9817e1803948b1699d1785",
-           measurementId: "p266654122"
+           measurementId: "p266654231"
          };
            
          firebase.initializeApp(firebaseConfig);

@@ -1,3 +1,6 @@
+## How to Verify phone number using firebase in laravel 8
+
+Read More: https://realprogrammer.in/how-to-verify-phone-number-using-firebase-in-laravel-8/
 ## About
 
 First Step: download in your system.
@@ -11,7 +14,6 @@ composer install
 cp .env.example .env
 
 Put your credentils below.
-
 
 Change js credentils below.
 
