@@ -2,10 +2,6 @@
 
 First Step: download in your system.
 
-https://console.firebase.google.com/u/0/project/test-e434b/authentication/providers
-
-http://localhost/firebase-phone-authentication
-
 git clone https://github.com/siddharth018/l8firebase.git 
 
 cd l8firebase
@@ -13,6 +9,12 @@ cd l8firebase
 composer install
 
 cp .env.example .env
+
+
+https://console.firebase.google.com/u/0/project/test-e434b/authentication/providers
+
+http://localhost/firebase-phone-authentication
+
 
 Step second: Run server
 
