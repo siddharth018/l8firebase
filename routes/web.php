@@ -2,7 +2,7 @@
   
 use Illuminate\Support\Facades\Route;
   
-use App\Http\Controllers\RazorpayPaymentController;
+use App\Http\Controllers\FirebaseController;
   
 /*
 |--------------------------------------------------------------------------
@@ -15,5 +15,4 @@ use App\Http\Controllers\RazorpayPaymentController;
 |
 */
   
-Route::get('payment', [RazorpayPaymentController::class, 'index']);
-Route::post('payment', [RazorpayPaymentController::class, 'store'])->name('razorpay.payment.store');
+Route::get('firebase-phone-authentication', [FirebaseController::class, 'index']);
