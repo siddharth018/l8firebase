@@ -12,21 +12,24 @@ cp .env.example .env
 
 Put your credentils below.
 
-var firebaseConfig = {
-           apiKey: "AIzaSyCg-NbICvCrdlzpPuRGtfFpPKKBxkXqQfE",
-           authDomain: "test-e434b.firebaseapp.com",
-           databaseURL: "https://test-e434b.firebaseapp.com",
-           projectId: "test-e434b",
-           storageBucket: "test-e434b.appspot.com",
-           messagingSenderId: "108177260687787",
-           appId: "1:1081772606944:web:9817e1803948b1699d1785",
-           measurementId: "p266654122"
-};
 
+Add a file **server.js** with the following content:
+
+```js
+var firebaseConfig = {
+    apiKey: "AIzaSyCg-NbICvCrdlzpPuRGtfFpPKKBxkXqQfE",
+    authDomain: "test-e434b.firebaseapp.com",
+    databaseURL: "https://test-e434b.firebaseapp.com",
+    projectId: "test-e434b",
+    storageBucket: "test-e434b.appspot.com",
+    messagingSenderId: "108177260687787",
+    appId: "1:1081772606944:web:9817e1803948b1699d1785",
+    measurementId: "p266654122"
+};
+```
 https://console.firebase.google.com/u/0/project/test-e434b/authentication/providers
 
 http://localhost/firebase-phone-authentication
-
 
 Step second: Run server
 
