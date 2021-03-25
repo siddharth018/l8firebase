@@ -1,27 +1,18 @@
 ## About
+
 First Step: download in your system.
 
 https://console.firebase.google.com/u/0/project/test-e434b/authentication/providers
 
-https://www.itsolutionstuff.com/post/laravel-8-firebase-mobile-number-otp-authentication-tutorialexample.html
+http://localhost/firebase-phone-authentication
 
-https://stackoverflow.com/questions/46578267/hostname-match-not-found-error-in-firebase-phone-authenticationwith-ionic/46578382
+git clone https://github.com/siddharth018/l8firebase.git 
 
-
-http://127.0.0.1:8000/firebase-phone-authentication
-
-https://stackoverflow.com/questions/43292516/how-can-i-find-sender-id-in-firebase
-
-git clone https://github.com/siddharth018/l8razorpay.git 
-
-cd l8razorpay
+cd l8firebase
 
 composer install
 
 cp .env.example .env
-
-RAZORPAY_KEY=rzp_test_001TvuvNiExLz3
-RAZORPAY_SECRET=uyGt70hu708OyyTaCnVujYN6
 
 Step second: Run server
 
